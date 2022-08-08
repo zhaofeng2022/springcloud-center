@@ -9,7 +9,7 @@ spring:
 #声明数据源
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/zhaofeng?useSSL=false&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/zhaofeng1?useSSL=false&characterEncoding=utf-8
     username: root
     password: 1234
 
