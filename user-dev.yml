@@ -9,9 +9,9 @@ spring:
 #声明数据源
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/zhaofeng?useSSL=false&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.232.38:3306/zhaofeng?useSSL=false&characterEncoding=utf-8
     username: root
-    password: 1234
+    password: 123456
 
 #声明jpd实施正向工程
   jpa:
