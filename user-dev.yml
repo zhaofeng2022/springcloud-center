@@ -26,7 +26,7 @@ eureka:
     fetch-registry: true          #向eureka服务器索要信息
     #user微服务的url（用户微服务注册到eureka服务器后，访问的url）
     service-url:
-      defaultZone: http://192.168.132.104:8888/eureka,http://192.168.232.132:8888/eureka
+      defaultZone: http://192.168.131.104:8888/eureka,http://192.168.232.132:8888/eureka
 
 #作为eureka服务器的实例，注册时使用ip地址作为url
   instance:
