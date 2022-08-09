@@ -12,7 +12,7 @@ eureka:
     fetch-registry: true
    #电影购片微服务的url
     service-url:
-      defaultZone: http://localhost:8888/eureka
+      defaultZone: http://192.168.132.104:8888/eureka,http://192.168.232.132:8888/eureka
 
   #使用ip地址
   instance:
